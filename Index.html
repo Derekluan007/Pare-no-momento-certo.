@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pare no Momento Certo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🚦 Pare no Momento Certo</h1>
+  <p>Pressione <strong>ESPAÇO</strong> para parar o marcador na zona verde!</p>
+
+  <div id="hud">
+    <span>Fase: <strong id="level">1</strong></span>
+    <span>Pontos: <strong id="score">0</strong></span>
+    <span>Vidas: <strong id="lives">3</strong></span>
+  </div>
+
+  <div class="track">
+    <div id="zone" class="zone"></div>
+    <div id="marker" class="marker"></div>
+  </div>
+
+  <button id="btnStart">Iniciar Jogo</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
